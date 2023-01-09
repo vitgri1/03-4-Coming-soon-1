@@ -1,0 +1,14 @@
+/* base */
+@import '../base/base.css';
+@import '../base/layout.css';
+/* 3rd-party */
+/* components */
+
+/* Custom style below this comment line */
+
+section.container{
+    padding-bottom: 30px;
+}
+footer.container{
+    padding-top: 0;
+}
