@@ -12,6 +12,8 @@
     min-height: 100vh;
     background-image: url(../../img/bg.png);
     background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .hero > .short-row {
