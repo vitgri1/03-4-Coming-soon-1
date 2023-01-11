@@ -5,6 +5,10 @@
 @import '../3rd-party/font-awesome.min.css';
 /* components */
 @import '../components/button.css';
+@import '../components/clock.css';
+@import '../components/mouse.css';
+@import '../components/progress-bar.css';
+
 /* Custom style below this comment line */
 
 /* hero */

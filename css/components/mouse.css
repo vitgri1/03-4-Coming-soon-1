@@ -1,0 +1,21 @@
+.mouse {
+    font-size: 3px;
+    border: 1em solid #fff;
+    width: 8em;
+    height: 13em;
+    border-radius: 4em;
+    position: relative;
+}
+
+.mouse::before {
+    content: '';
+    display: block;
+    background-color: #fff;
+    width: 1em;
+    height: 1.6em;
+    position: absolute;
+    top: 2.5em;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 0.5em;
+}
