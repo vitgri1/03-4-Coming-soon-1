@@ -32,3 +32,17 @@
         width: 100%;
     }
 }
+
+.form.mail {
+    justify-content: center;
+}
+
+.form.mail > input {
+    background-color: transparent;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.form.mail > input::placeholder {
+    color: #fff;
+}
