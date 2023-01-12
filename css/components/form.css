@@ -38,6 +38,7 @@
 }
 
 .form.mail > input {
+    width: 100%;
     background-color: transparent;
     color: #fff;
     border-bottom: 1px solid #fff;
