@@ -1,0 +1,38 @@
+.mouse {
+    font-size: 3px;
+    border: 1em solid #fff;
+    width: 8em;
+    height: 13em;
+    border-radius: 4em;
+    position: relative;
+}
+
+.mouse::before {
+    content: '';
+    display: block;
+    background-color: #fff;
+    width: 1em;
+    height: 1.6em;
+    position: absolute;
+    top: 2em;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 0.5em;
+    animation-name: scroll;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translate(-50%, 0);
+        opacity: 1;
+    }
+    50% {
+       opacity: 1;
+    }
+    100% {
+        transform: translate(-50%, 330%);
+        opacity: 0;
+    }
+}
