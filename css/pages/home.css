@@ -4,9 +4,11 @@
 /* 3rd-party */
 @import '../3rd-party/font-awesome.min.css';
 /* components */
+@import '../components/button.css';
 @import '../components/clock.css';
 @import '../components/mouse.css';
 @import '../components/progress-bar.css';
+
 /* Custom style below this comment line */
 
 /* hero */
@@ -24,6 +26,8 @@
     flex-direction: column;
     text-align: center;
     gap: 30px;
+    align-items: center;
+    align-content: center;
 }
 
 .logo {
@@ -51,7 +55,11 @@ footer.container {
     padding-top: 0;
 }
 
-.row.socials {
+.row{
+    position: relative;
+}
+
+.socials {
     border-bottom: 1px solid #fff;
     padding: 20px;
     text-align: center;
@@ -75,4 +83,10 @@ footer.container {
 .socials > a:hover {
     background-color: #fff;
     color: #03a9f3;
+}
+
+.back-to-top {
+    position: absolute;
+    top: -1.1em;
+    right: -0.6em;
 }
